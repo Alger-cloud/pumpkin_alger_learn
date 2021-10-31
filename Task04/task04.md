@@ -8,7 +8,8 @@
     <img src="./pic/M-P-neuron.png" width="">
 </div>
 <!-- ![image](https://github.com/Alger-cloud/pumpkin_alger_learn/tree/master/Task04/pic/Sigmoid-function.png) -->
-$$图5.1 MP神经元模型$$
+<center>图5.1 MP神经元模型</center>
+
 &emsp;&emsp;**step1**.神经网络基本单元——**神经元（neuron）**
 &emsp;&emsp;**step2**.**"M-P神经元模型**经元接收到来自n个其他神经元传递过来的输入信号，这些输入信号通过带权重的连接(connection) 进行传递，神经元接收到的总输入值将与神经元的阀值进行比较，然后通过"激活函数" (activation function 处理以产生神经元的输出.
 &emsp;&emsp;**step3**.实际常用Sigmoid函数作为激活函数，典型的 Sigmoid 函数如下图所示，它把可能在较大范围内变化的输入值挤压到 (0,1) 输出值范围内，因此有时也称为 "挤压函数" (squashi function)
@@ -16,7 +17,8 @@ $$图5.1 MP神经元模型$$
     <img src="./pic/Sigmoid-function.png" width="">
 </div>
 <!-- ![image](https://github.com/Alger-cloud/pumpkin_alger_learn/tree/master/Task04/pic/Sigmoid-function.png) -->
-$$图5.2 Sigmoid-function函数$$
+<center>图5.2 Sigmoid-function函数</center>
+
 &emsp;&emsp;**step4**.把许多个这样的神经元按一定的层次结构连接起来，就得到了神经网络。
 ### 5.2 感知机与多层网络
 &emsp;&emsp;感知机(Perceptron 由两层神经元组成，输入层接收外界输入信号后传递给输出层， 输出层是M-P 经元，亦称"阔值逻辑单元" (threshold logic unit).
@@ -26,7 +28,8 @@ $$图5.2 Sigmoid-function函数$$
     <img src="./pic/multi-neuron.png" width="">
 </div>
 <!-- ![image](https://github.com/Alger-cloud/pumpkin_alger_learn/tree/master/Task04/pic/multi-neuron.png) -->
-$$图5.2 多层神经网络模型$$
+<center>图5.2 多层神经网络模型</center>
+
 &emsp;&emsp;2.每层神经元与下层神经元全互连，神经元之间不存在同层连接，也不存在跨层连接 这样经网络结构通常称为"多层前馈神经网 (multi-layer feedforward neural networks)。
 ### 5.3 误差逆传播算法
 &emsp;&emsp;1. 多层网络的学习能力比单层感知机强得多.欲训练多层网络，简单感知机学习规则显然不够了，需要更强大的学习算法.误差逆传播(error BackPropagation ，简称 BP) 算法就是其中最杰出的代表?它是迄今最成功的神经网络学习算法.
@@ -36,19 +39,20 @@ $$图5.2 多层神经网络模型$$
 &emsp;&emsp;5. 下面是BP神经网络的几个常用结论的推导过程：
 
 <div align=center>
-    <img src="./pic/公式推导00.jpg" width="">
+    <img src="./pic/公式推导00~1.jpg" width="">
 </div>
 <!-- ![image](https://github.com/Alger-cloud/pumpkin_alger_learn/tree/master/Task04/pic/公式推导00.jpg) -->
-$$图5.3 三层神经网络各层函数关系图$$
+<center>图5.3 三层神经网络各层函数关系图</center>
+
 <div align=center>
-    <img src="./pic/公式推导01.jpg" width="">
+    <img src="./pic/公式推导01~1.jpg" width="">
 </div>
 <!-- ![image](https://github.com/Alger-cloud/pumpkin_alger_learn/tree/master/Task04/pic/公式推导01.jpg) -->
-$$图5.4 推导过程01$$
+<center>图5.4 推导过程01<center>
+
 <div align=center>
-    <img src="./pic/公式推导02.jpg" width="">
+    <img src="./pic/公式推导02~1.jpg" width="">
 </div>
 <!-- ![image](https://github.com/Alger-cloud/pumpkin_alger_learn/tree/master/Task04/pic/公式推导02.jpg) -->
-$$图5.5 推导过程02$$
-
-##### 参考：周志华《机器学习》
+<center> 图5.5 推导过程02 </center>
+ &emsp;&emsp;以上就是学习神经网络基础知识的简记，有关详细内容请参考资料：周志华《机器学习》
